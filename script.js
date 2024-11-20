@@ -118,3 +118,114 @@ function remplacementProduit(ancienProduit, nouveauProduit){
 
 console.log(remplacementProduit("bubble tea","coca"))
 console.log(remplacementProduit("café","chocolat"))
+
+//Exercice4
+//role: verifier si il y a un @ du mot de passe
+//paramètre: mot de passe à vérifier
+//retour: vrai ou faux
+
+ function motsDepasse(){
+   return [].includes.call(arguments,"@")
+ }
+
+ console.log(motsDepasse("@","g","m"))
+ console.log(motsDepasse("s","i","w"))
+
+ //Exercice4 Correction
+ //role: vérifier si le mdp contient @
+ //parametre: le mdp a vérifier
+ //retour vrai ou faux
+
+ function verifierMdp(mdp){
+    const caracter="@"
+    return mdp.includes(caracter);
+ }
+ let result = verifierMdp("ch@t");
+ 
+ console.log(result)
+
+ //exercice6
+//role:additioner deux valeur
+//paramétre:les valeur
+// retour:resultat
+
+function addmt(a,b){
+    return a + b
+}
+
+let sub= addmt(8,9);
+console.log(sub);
+
+//Exercice8
+//role: affiche la dernière lettre de n’importe quel mot/phrase
+//paramétre: le mot
+//retour: rien
+
+function textPh(mot){
+console.log(mot[mot.length-1])
+    
+}
+
+textPh("sera une valeur dont le contenu ne changera pas")
+
+
+//role:Poser une question et récupérer uneréponse
+//paramétre:Rien
+//retour:la réponce
+function Quizz(){
+    let r= prompt("ça va ?")// stocker la reponse
+    return r// retourner la réponce
+}
+console.log(`la reponce de l'utili est ${Quizz()}`)
+
+
+
+//Exercice1
+
+console.log(10===10)
+
+//Exercice2
+
+console.log("Hello"!=="hello")
+
+//Exercice3
+
+console.log(8>12)
+
+//Exercice4
+
+ let pair=6
+
+ if(pair%2){
+
+ }
+
+
+//Exerxixe5
+
+
+
+
+
+
+
+
+
+
+//Exercice6
+
+let enfant=18
+
+if(enfant<=12){
+    console.log("Enfant")
+}else if(enfant<=18 && enfant>=18){
+    console.log("Adolescent")
+}
+
+
+
+//Exercice7
+ let
+
+
+
